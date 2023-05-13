@@ -2,7 +2,7 @@
   "name": "raven-plan-demo",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://Linkerin.github.io/raven-plan-demo",
+  "homepage": "https://linkerin.github.io/raven-plan-demo",
   "type": "module",
   "scripts": {
     "dev": "vite",
