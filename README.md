@@ -11,7 +11,7 @@
 
 ## About <a id="about"></a>
 
-This is an interactive _demo_ version of a task manager application that started as a [CS50x](https://cs50.harvard.edu/x) final project - **Raven Plan**. The main idea was to create a convenient, easy-to-use, and fancy looking application to manage a simple tasks list. This is not a daily planner or calendar, just a to-do list that uses emoji to distingush your tasks.
+This is an interactive **desktop only** _demo_ version of a task manager application that started as a [CS50x](https://cs50.harvard.edu/x) final project - **Raven Plan**. The main idea was to create a convenient, easy-to-use, and fancy looking application to manage a simple tasks list. This is not a daily planner or calendar, just a to-do list that uses emoji to distingush your tasks.
 
 > This project is currently **frozen**, and its further development is questionable. The last version was commited in December 2021, and since then, only minor changes were made to publish a demo version.
 
@@ -28,6 +28,7 @@ This is an interactive _demo_ version of a task manager application that started
 
 Although this project is currently frozen, here are some of the ideas we had to improve the application:
 
+- [ ] Make the layout mobile friendly.
 - [ ] Create a different route and logic for everyday routine tasks.
 - [ ] Embed _Spotify_ or other music provider controls.
 - [ ] Implement Task creation from e-mails and via Telegram bot.
