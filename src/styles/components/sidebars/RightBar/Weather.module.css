@@ -1,0 +1,58 @@
+.container {
+  align-items: center;
+  background-color: var(--light-gray);
+  border-radius: 0.7rem;
+  cursor: default;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  width: 90%;
+}
+
+.mainInfo {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.city {
+  color: var(--dark-purple-color);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.temp {
+  color: var(--orange-color);
+  font-size: 2.7rem;
+}
+
+.weatherType {
+  color: var(--dark-purple-color);
+  font-size: 1.2rem;
+}
+
+.otherInfo {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding-right: 3rem;
+  padding-top: 0.6rem;
+}
+
+.feelsLike,
+.humidity {
+  color: var(--dark-purple-color);
+  font-size: 0.9rem;
+  /* margin-bottom: 0.5rem; */
+}
+
+.orange {
+  color: var(--orange-color);
+}

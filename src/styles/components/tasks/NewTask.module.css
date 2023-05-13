@@ -1,0 +1,82 @@
+.emojiContainer {
+  position: relative;
+}
+
+.emojiPicker {
+  position: absolute;
+  z-index: 1;
+}
+
+.taskInput {
+  color: var(--main-font-color);
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--dark-purple-color);
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  margin: 0 1rem;
+  max-width: 80%;
+  min-width: 80%;
+  outline: none;
+  resize: none;
+}
+
+.taskInput::placeholder {
+  color: var(--violet-color);
+  font-size: 0.7rem;
+}
+
+.taskDescInput {
+  color: var(--main-font-color);
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--dark-purple-color);
+  font-family: 'Nunito', sans-serif;
+  margin: 0.7rem 0 0 6.4rem;
+  max-width: 70.1%;
+  min-width: 70.1%;
+  outline: none;
+  resize: none;
+}
+
+.taskDescInput::placeholder {
+  color: var(--violet-color);
+  font-size: 0.7rem;
+}
+
+.taskAttrInput {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  margin-left: 5.7rem;
+  padding: 0.7em;
+}
+
+.importanceCheckbox {
+  height: 1rem;
+  margin-left: 0.5rem;
+  width: 1rem;
+}
+
+.menuBtnContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5.7rem;
+  padding: 0.7em;
+}
+
+.submitBtn {
+  composes: btn from '../Button.module.css';
+  margin-right: 1rem;
+}
+
+.discardBtn {
+  composes: btn from '../Button.module.css';
+  background-color: var(--cancel-color);
+}
+
+.discardBtn:hover {
+  background-color: var(--cancel-hover-color);
+}

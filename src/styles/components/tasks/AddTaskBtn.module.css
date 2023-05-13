@@ -1,0 +1,31 @@
+.addBtn,
+.closeBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0.1rem;
+}
+
+.addBtn:hover path {
+  fill: var(--hover-color);
+}
+
+.closeBtn path {
+  fill: var(--orange-color);
+}
+
+.rotated {
+  transform: rotate(45deg) translateY(-24px) translateX(11px);
+  animation-name: rotation;
+  animation-duration: 0.5s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg) translateY(0) translateX(0);
+  }
+  100% {
+    transform: rotate(45deg) translateY(-24px) translateX(11px);
+  }
+}

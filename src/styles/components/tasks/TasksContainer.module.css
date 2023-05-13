@@ -1,0 +1,32 @@
+.tasks {
+  background-color: var(--light-gray);
+  border-radius: 1.5rem;
+  height: 100vh;
+}
+
+.headerContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.2rem 5% 0;
+}
+
+.header {
+  color: var(--dark-purple-color);
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.tasksContainer {
+  border-radius: 1rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100vh - 103px);
+  scrollbar-width: none; /* Firefox */
+  padding: 1.2rem 5%;
+}
+
+.tasksContainer::-webkit-scrollbar {
+  display: none; /* Chrome and Safari */
+}

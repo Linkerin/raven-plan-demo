@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: var(--dark-purple-color);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 5rem;
+  border-right: 2px solid var(--dark-purple-color);
+  padding-right: 2rem;
+}

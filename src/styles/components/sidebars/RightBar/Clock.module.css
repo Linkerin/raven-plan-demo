@@ -1,0 +1,8 @@
+.clock {
+  color: var(--dark-purple-color);
+  cursor: default;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.7em;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,135 @@
+.taskContainer {
+  background-color: var(--task-desc-bg-color);
+  border-radius: 0.8rem;
+  margin: 0 0 0.8em;
+  position: relative;
+}
+
+.task {
+  align-items: center;
+  border-radius: 0.8rem;
+  display: grid;
+  grid-template-columns: 5.4rem 1fr;
+  overflow: hidden;
+}
+
+.task:hover {
+  cursor: pointer;
+}
+
+.taskIcon,
+.taskTextContainer {
+  padding: 0.7rem 0;
+}
+
+.taskIcon {
+  align-items: center;
+  background-color: var(--violet-color);
+  display: flex;
+  flex-direction: row;
+  font-size: 2.4rem;
+  height: 100%;
+  justify-content: center;
+}
+
+.taskTextContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  background-color: #fff;
+}
+
+.taskText {
+  align-self: center;
+  color: var(--main-font-color);
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0 1.1rem;
+  width: 85%;
+}
+
+.archiveIcon {
+  height: 1.8rem;
+  margin-left: 0.5rem;
+  stroke: var(--light-orange-color);
+  width: auto;
+}
+
+.archiveIcon:hover {
+  cursor: pointer;
+  stroke: var(--orange-color);
+}
+
+.deleteBtn {
+  align-items: center;
+  background-color: var(--red-color);
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  height: 2.2rem;
+  justify-content: center;
+  position: absolute;
+  right: -0.9rem;
+  top: -0.9rem;
+  width: 2.2rem;
+}
+
+.deleteBtn:hover {
+  background-color: var(--alert-hover-color);
+}
+
+.deleteBtn:active {
+  background-color: var(--red-active-color);
+}
+
+.taskDescription {
+  animation: expandTask 0.3s;
+  margin: 0;
+  padding: 1rem;
+}
+
+@keyframes expandTask {
+  from {
+    padding: 0;
+    visibility: hidden;
+    height: 0;
+  }
+
+  50% {
+    height: 50%;
+    padding: 1em;
+  }
+
+  to {
+    visibility: visible;
+    height: auto;
+  }
+}
+
+.taskDescriptionText {
+  margin-left: 3.9rem;
+  text-align: justify;
+  width: 85%;
+}
+
+.importanceContainer {
+  color: var(--orange-color);
+  margin-top: 1rem;
+}
+
+.displayNone {
+  display: none;
+}
+
+.noTasks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.noTasksImg {
+  margin-top: 2em;
+  width: 60%;
+}

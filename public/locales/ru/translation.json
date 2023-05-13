@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "tasks": "Задачи",
+    "matrix": "Матрица Э.",
+    "routine": "Регулярные задачи",
+    "archived": "Архив",
+    "trash": "Корзина",
+    "profile": "Профиль"
+  },
+  "leftBar": {
+    "greeting": "Привет"
+  },
+  "rightBar": {
+    "settings": "Настройки"
+  },
+  "noTasks": {
+    "noTasks": "Кажется, у тебя ещё нет ни одной задачи.",
+    "create": "Самое время создать!"
+  },
+  "newTask": {
+    "emojiPicker": {
+      "smileys_people": "Смайлы и люди",
+      "animals_nature": "Природа",
+      "food_drink": "Еда и напитки",
+      "travel_places": "Путешествия",
+      "activities": "Спорт",
+      "objects": "Предметы",
+      "symbols": "Символы",
+      "flags": "Флаги",
+      "recently_used": "Частые"
+    },
+    "taskPlaceholder": "Задача",
+    "descPlaceholder": "Описание",
+    "importance": "Важно",
+    "submitBtn": "Сохранить",
+    "discardBtn": "Отменить"
+  },
+  "weather": {
+    "feelsLike": "Ощущается",
+    "humidity": "Влажность"
+  },
+  "login": {
+    "register": "Регистрация",
+    "login": "Войти",
+    "password": "Пароль",
+    "email": "Электронная почта",
+    "noAccount": "Нет учетной записи?",
+    "anyData": "Введите любые данные и нажмите `Войти`"
+  },
+  "register": {
+    "register": "Регистрация",
+    "login": "Войти",
+    "name": "Имя",
+    "surname": "Фамилия",
+    "password": "Пароль",
+    "email": "Электронная почта",
+    "create": "Создать аккаунт",
+    "haveAccount": "Уже есть учетная запись?"
+  },
+  "profile": {
+    "withRavenPlan": "вместе с Raven Plan с",
+    "email": "E-mail",
+    "changePswd": "Изменить пароль",
+    "oldPswd": "Текущий пароль",
+    "newPswd": "Новый пароль",
+    "logout": "Выйти"
+  }
+}

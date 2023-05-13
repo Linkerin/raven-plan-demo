@@ -1,0 +1,44 @@
+.profile {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 3.5rem;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.avatarContainer {
+  border: 2px solid var(--dark-purple-color);
+  border-radius: 0.9rem;
+  padding: 3px;
+  height: 100%;
+}
+
+.avatar {
+  height: 100%;
+  width: auto;
+}
+
+.avatar img {
+  max-height: 100%;
+  width: auto;
+  border-radius: 0.6rem;
+}
+
+.textsContainer {
+  margin-left: 0.8rem;
+}
+
+.name {
+  color: var(--dark-purple-color);
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.1rem;
+}
+
+.settings {
+  color: var(--violet-color);
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+}

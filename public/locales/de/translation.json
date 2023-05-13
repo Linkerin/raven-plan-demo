@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "tasks": "Aufgaben",
+    "matrix": "E. Matrix",
+    "routine": "Routine",
+    "archived": "Archiviert",
+    "trash": "Papierkorb",
+    "profile": "Profil"
+  },
+  "leftBar": {
+    "greeting": "Hallo"
+  },
+  "rightBar": {
+    "settings": "Einstellungen"
+  },
+  "noTasks": {
+    "noTasks": "Anscheinend hast du keine Aufgaben.",
+    "create": "Es ist Zeit, eine Aufgabe zu erstellen!"
+  },
+  "newTask": {
+    "emojiPicker": {
+      "smileys_people": "Smileys & Personen",
+      "animals_nature": "Tiere & Natur",
+      "food_drink": "Essen & Trinken",
+      "travel_places": "Reisen & Orte",
+      "activities": "Aktivität",
+      "objects": "Objekte",
+      "symbols": "Symbole",
+      "flags": "Flaggen",
+      "recently_used": "Häufig benutzt"
+    },
+    "taskPlaceholder": "Aufgabe",
+    "descPlaceholder": "Aufgabendetails",
+    "importance": "Größte Bedeutung",
+    "submitBtn": "Senden",
+    "discardBtn": "Verwerfen"
+  },
+  "weather": {
+    "feelsLike": "Fühlt sich an wie",
+    "humidity": "Feuchtigkeit"
+  },
+  "login": {
+    "register": "Registrieren",
+    "login": "Anmelden",
+    "password": "Passwort",
+    "email": "E-Mail-Adresse",
+    "noAccount": "Haben Sie noch kein Konto?",
+    "anyData": "Geben Sie beliebige Anmeldedaten ein und drücken Sie `Anmelden`"
+  },
+  "register": {
+    "register": "Registrieren",
+    "login": "Anmelden",
+    "name": "Name",
+    "surname": "Vorname",
+    "password": "Passwort",
+    "email": "E-Mail-Adresse",
+    "create": "Konto erstellen",
+    "haveAccount": "Haben Sie bereits ein Konto?"
+  },
+  "profile": {
+    "withRavenPlan": "mit Raven Plan seit",
+    "email": "E-Mail-Adresse",
+    "changePswd": "Passwort ändern",
+    "oldPswd": "Altes password",
+    "newPswd": "Neues password",
+    "logout": "Abmelden"
+  }
+}

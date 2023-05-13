@@ -1,0 +1,65 @@
+.lngSelect {
+  position: relative;
+}
+
+.lngIconContainer {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  height: 2rem;
+  justify-content: center;
+  width: 2rem;
+}
+
+.lngIconContainer:hover path,
+.lngIconContainer:hover circle {
+  stroke: var(--hover-color);
+}
+
+.lngIconContainer svg {
+  max-height: 100%;
+  width: auto;
+}
+
+.lngsContainer {
+  align-items: center;
+  background-color: var(--white-color);
+  border-radius: 0.7rem;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  left: -1.1rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+  /* padding: 0.4rem 0; */
+  position: absolute;
+  width: 4.4rem;
+}
+
+.lng {
+  color: var(--dark-purple-color);
+  font-weight: 600;
+  padding: 0.2rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.lng:hover {
+  color: var(--white-color);
+  background-color: var(--hover-color);
+}
+
+.lng:active {
+  background-color: var(--dark-purple-color);
+}
+
+.lng:first-child {
+  padding-top: 0.4rem;
+  border-radius: 0.7rem 0.7rem 0 0;
+}
+
+.lng:last-child {
+  padding-bottom: 0.4rem;
+  border-radius: 0 0 0.7rem 0.7rem;
+}

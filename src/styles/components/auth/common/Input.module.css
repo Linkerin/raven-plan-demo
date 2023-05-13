@@ -1,0 +1,29 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.labelName {
+  color: var(--dark-purple-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 0.4rem 0.4rem;
+}
+
+.formInput {
+  background-color: var(--light-violet-color);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--main-font-color);
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
+  height: 2.5rem;
+  width: 50%;
+  margin-bottom: 1rem;
+  padding: 0 0.7rem;
+}

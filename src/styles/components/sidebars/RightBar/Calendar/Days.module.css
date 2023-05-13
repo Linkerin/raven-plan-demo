@@ -1,0 +1,34 @@
+.daysContainer {
+  align-items: center;
+  display: grid;
+  font-family: 'Montserrat', sans-serif;
+  grid-gap: 0.2rem;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+}
+
+.otherMonthDate,
+.selectedDate,
+.currentMonthDate {
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  height: 2rem;
+  justify-content: center;
+  width: 2rem;
+}
+
+.otherMonthDate {
+  color: var(--gray-color);
+}
+
+.selectedDate {
+  background-color: var(--orange-color);
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  color: var(--white-color);
+  font-weight: 700;
+}

@@ -1,0 +1,46 @@
+.container {
+  margin: 25px auto 25px 20px;
+  width: 85%;
+}
+
+.quoteContainer {
+  background-color: var(--light-gray);
+  border-radius: 0.7rem;
+  color: var(--main-font-color);
+  font-size: 0.85rem;
+  line-height: 20px;
+  padding: 0.7rem;
+  text-align: left;
+}
+
+.quoteContainer:hover {
+  cursor: pointer;
+}
+
+.quoteContainer:active svg {
+  stroke: var(--violet-color);
+}
+
+.copied {
+  color: var(--hover-color);
+  font-size: 0.7rem;
+  margin-left: 0.1rem;
+}
+
+.copyIcon {
+  position: relative;
+  top: 0.15rem;
+  height: 0.9rem;
+  width: auto;
+  margin-left: 0.2rem;
+}
+
+.author {
+  color: var(--main-font-color);
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  padding-right: 0.7rem;
+  text-align: right;
+}

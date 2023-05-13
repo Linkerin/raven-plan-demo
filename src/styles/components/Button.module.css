@@ -1,0 +1,28 @@
+.btn {
+  align-items: center;
+  background-color: var(--dark-purple-color);
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  display: flex;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+}
+
+.btn:hover {
+  background-color: var(--hover-color);
+}
+
+.btn:active {
+  background-color: var(--active-color);
+}
+
+.btnText {
+  color: var(--white-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+.btnIcon {
+  margin-right: 0.5rem;
+}
