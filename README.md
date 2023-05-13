@@ -33,7 +33,7 @@ Although this project is currently frozen, here are some of the ideas we had to 
 - [ ] Embed _Spotify_ or other music provider controls.
 - [ ] Implement Task creation from e-mails and via Telegram bot.
 - [ ] Extend the authentication system with OAuth2 support via popular social media platforms such as Google, Facebook, and Twitter.
-- [ ] Bussiness functions: automatic reports for managers, collaboration on tasks with colleagues, task proposal from the manager.
+- [ ] Business functions: automatic reports for managers, collaboration on tasks with colleagues, task proposal from the manager.
 - [ ] Generate the Eisenhower Matrix based on the tasks list that will enable users to set priorities for their tasks.
 - [ ] Implement a storage for images.
 - [ ] Add reminders that will signal when the due date is close.
