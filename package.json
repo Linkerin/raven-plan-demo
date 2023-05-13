@@ -1,15 +1,15 @@
 {
-  "homepage": "http://Linkerin.github.io/raven-plan-demo",
   "name": "raven-plan-demo",
   "private": true,
   "version": "0.0.1",
+  "homepage": "https://Linkerin.github.io/raven-plan-demo",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
