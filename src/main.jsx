@@ -9,10 +9,7 @@ import router from './router';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ContextProvider>
-      <RouterProvider
-        router={router}
-        basename={import.meta.env.DEV ? '/' : '/raven-plan-demo/'}
-      />
+      <RouterProvider router={router} />
     </ContextProvider>
   </React.StrictMode>
 );
